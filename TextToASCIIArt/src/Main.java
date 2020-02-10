@@ -16,7 +16,7 @@ public class Main {
 		
 		AABanner.debug = Integer.parseInt((String) prop.get("debug")) > 0 ?  true : false; 
 		AABanner.myFontName = (String) prop.get("font"); 
-		AABanner.myFontStyle = Integer.parseInt((String) prop.get("debug")) ; 
+		AABanner.myFontStyle = Integer.parseInt((String) prop.get("fontStyle")) ; 
 		AABanner.percent = 100 - Integer.parseInt((String) prop.get("thinkness")) ; 
 		AABanner.clarity = Integer.parseInt((String) prop.get("size")); 
 		AABanner.myChar = (String) prop.get("character"); 
